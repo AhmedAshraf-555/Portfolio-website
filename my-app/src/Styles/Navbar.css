@@ -1,0 +1,45 @@
+
+.bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+.bar li{
+    list-style: none;
+} 
+    
+.bar li{
+    text-decoration: none;
+    margin: .6rem .4rem;
+    border-radius: 30px;
+    padding: 1rem;
+    background-color: rgb(68, 68, 68);
+}
+.bar li:hover{
+    padding: 1rem 1.55rem;
+    background-color: orange;
+    transition: .4s ;
+}
+ .home{
+    background: transparent;
+    font-size: 1.5rem;
+    color: azure;
+}
+.home.active{
+    background-color: orange;
+}
+#hem{
+    background-color: transparent;
+}
+#tipp:hover{
+    margin-top: 40px;
+}
+.navi{
+    margin-left: 30rem;
+}
+@media (max-width:800px ){
+    .navi{
+        margin-left: 0px;
+    }
+}

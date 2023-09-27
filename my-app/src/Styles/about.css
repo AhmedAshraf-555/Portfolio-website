@@ -1,0 +1,182 @@
+
+.ody{
+    margin-left: 3rem;
+
+}
+.cardi{
+    width: 40rem; 
+    margin-left: 6rem;
+     border:none;
+      margin-top:2rem;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading li{
+    list-style: none;
+    display: flex;
+    /* letter-spacing: px; */
+    margin-top: -6rem;
+}
+#re{
+    color: rgb(134, 134, 132);
+ font-size: 6rem;
+ letter-spacing: 20px;
+ font-weight: 800;
+ opacity: .2;
+}
+#ab{
+    color: black;
+    letter-spacing: 9px;
+    font-size: 3.3rem;
+    font-weight: 800;
+}
+#me{
+    color: orange;
+    letter-spacing: 9px;
+    font-size: 3.3rem;
+    font-weight: 800;
+    background-color: block;
+}
+.head{
+    width: 400px ;
+    font-weight: 500;
+}
+.head h4{
+    color: rgb(82, 79, 79);
+    font-weight: 700;
+}
+.title{
+    color: rgb(89, 94, 94);
+    font-weight: 730;
+    font-size: 1.7rem;
+}
+.text li{
+    list-style: none;
+    align-content: flex-start;
+}
+.tile{
+    font-size: 1rem;
+    font-weight: 450;
+    color: rgb(134, 134, 132);
+
+}
+.info{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(46, 44, 44);
+    margin-left: 10px;
+    align-items: flex-start;
+   
+    
+}
+.text ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.not{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(93, 138, 27);
+    margin-left: 10px;
+
+}
+.personal hr{
+    width: 45%;
+    margin-left: 20rem;
+}
+@media(max-width: 836px ){
+    .ody{
+        width: 20rem;
+        margin: 0;
+        margin-left: 0px;
+    }
+    .title{
+        margin-left: 0px;
+    }
+    .personal hr{
+        width: 50%;
+        margin-left: 10rem;
+    }
+    .cardi{
+        width: 20rem;
+    }
+}
+.skill{
+color: rgb(82, 79, 79);
+font-size: 2.4rem;
+font-weight: 700;
+align-items: center;
+text-align: center;
+   
+}
+.bars{
+     width: 30%;
+}
+.bars li{
+    list-style: none;
+    margin: 20px;
+    /* display: flex; */
+}
+.bars h5{
+    color: rgb(82, 79, 79);
+}
+.progress-bar{
+    background-color: orange;
+
+}
+@media (max-width: 600px){
+    .bars{
+        width: 70%;
+   }
+
+}
+.edu li{
+    list-style: none;
+   
+}
+.icon{
+   color: white;
+    background-color: orange;
+    font-size: 2rem;
+    border-radius: 50%;
+    padding: 5px;
+}
+.education .time{
+    border-radius: 20px;
+    background-color: rgb(180, 180, 175);
+    padding: 3px 3px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.edu{
+    margin: 3rem 3rem;
+}
+.education h5{
+    color: rgb(82, 79, 79);
+    font-weight: 600;
+}
+.education .pera{
+    color: rgb(134, 134, 132);
+    font-weight: 500;
+}
+@media (max-width:900px){
+    #re{
+        font-size: 4.2rem;
+        opacity: .2;
+        letter-spacing: .6rem;
+        margin-left: 0;
+    }
+    #ab,#me{
+        font-size: 2rem;
+        margin-top: 2rem;
+        letter-spacing: .4rem;
+    }
+    *{
+        margin: 0;
+    }
+
+}

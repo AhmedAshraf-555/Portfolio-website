@@ -1,0 +1,106 @@
+.body{
+    margin-left: 3rem;
+
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading li{
+    list-style: none;
+    display: flex;
+    /* letter-spacing: px; */
+    margin-top: -6rem;
+}
+#wk{
+    color: rgb(134, 134, 132);
+ font-size: 7rem;
+ letter-spacing: 20px;
+ font-weight: 800;
+ opacity: .2;
+}
+#my{
+    color: black;
+    letter-spacing: 8px;
+    font-size: 3rem;
+    font-weight: 800;
+}
+#pt{
+    color: orange;
+    letter-spacing: 8px;
+    font-size: 3rem;
+    font-weight: 800;
+    background-color: block;
+}
+.head{
+    width: 400px ;
+    font-weight: 500;
+}
+.head h4{
+    color: rgb(82, 79, 79);
+    font-weight: 700;
+}
+.project{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#title{
+    color: rgb(105, 98, 85);
+    font-weight: 500;
+    margin-top: 20px;
+}
+.anchor{
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 20px;
+}
+.anchor a{
+    color: white;
+    text-decoration: none;
+}
+.anchor:hover{
+    background-color: rgb(79, 90, 90);
+}
+.html{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tit{
+    margin: 22px;
+}
+.node{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width:980px){
+    /* .heading{
+        width: 100vh;
+    } */
+
+     .body{
+        margin-left: 0;
+     }
+    #wk{
+        font-size: 4.2rem;
+        opacity: .2;
+        letter-spacing: 1.7rem;
+       
+    }
+    #my{
+     font-size: 2.2rem;
+     margin-top: 1.8rem;
+     letter-spacing: .5rem;
+     
+    }
+    #pt{
+   font-size: 2.2rem;
+   margin-top: 1.8rem;
+   letter-spacing: .5rem;
+    }
+
+}

@@ -1,0 +1,95 @@
+.body{
+    margin-left: 3rem;
+
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading li{
+    list-style: none;
+    display: flex;
+    /* letter-spacing: px; */
+    margin-top: -6rem;
+}
+#ct{
+    color: rgb(134, 134, 132);
+ font-size: 5.7rem;
+ letter-spacing: 15px;
+ font-weight: 800;
+ opacity: .2;
+}
+#gi{
+    color: black;
+    letter-spacing: 7px;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+#tc{
+    color: orange;
+    letter-spacing: 7px;
+    font-size: 3.5rem;
+    font-weight: 800;
+    background-color: block;
+}
+.head{
+    width: 400px ;
+    font-weight: 500;
+}
+.head h4{
+    color: rgb(82, 79, 79);
+    font-weight: 700;
+}
+#per{
+    margin: 20px 0px;
+}
+.adress .icon{
+    color: rgb(255, 253, 248);
+    font-size: 2.5rem;
+   padding: .6rem;
+
+}
+.adress{
+    font-weight: 500;
+    font-size: 17px;
+}
+.adress .span{
+    color: rgb(88, 79, 79);
+    font-weight: 600;
+}
+.contact li{
+    list-style: none;
+    margin-left: 10px;
+    border-radius: 100%;
+    background-color: rgb(60, 75, 75);
+    padding: 10px 13px;
+    color: white;
+}
+.contact ul{
+    display: flex;
+}
+.ic{
+    color: white;
+}
+.contact li:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+.adress hr{
+    width: 18rem;
+}
+@media (max-width:900px){
+    #ct{
+        font-size: 4rem;
+        opacity: .2;
+        letter-spacing: .6rem;
+        margin-left: 0;
+    }
+    #gi,#tc{
+        font-size: 2.2rem;
+        margin-top: 2rem;
+        letter-spacing: .4rem;
+    }
+
+}
